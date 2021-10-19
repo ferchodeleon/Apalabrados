@@ -1,5 +1,5 @@
 import "./App.css";
-import { LinkForm } from "./components/InputForm";
+import { InputForm } from "./components/InputForm";
 import { db } from "./firebase-config";
 
 const App = () => {
@@ -63,7 +63,7 @@ const App = () => {
   return (
     <div className="container p-4">
       <div className="row">
-        <LinkForm addTask={addTask} />
+        <InputForm addTask={addTask} />
       </div>
       <div>
         <p>El texto es:</p>
