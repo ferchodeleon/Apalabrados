@@ -1,5 +1,5 @@
 import "./App.css";
-import { LinkForm } from "./components/LinkForm";
+import { LinkForm } from "./components/InputForm";
 import { db } from "./firebase-config";
 
 const App = () => {
